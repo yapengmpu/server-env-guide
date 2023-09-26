@@ -9,7 +9,7 @@
 1. 下載 Zerotier (<https://www.zerotier.com/download/>) 並安裝。
 2. 開啟 Zerotier，在 Windows 工具欄右方找到 Zerotier，右鍵，"Join New Network"。
 3. 輸入提供的 Zerotier 網絡。
-4. 在 Windows 工具欄右方找到 Zerotier，右鍵，回報 "My address"。
+4. **在 Windows 工具欄右方找到 Zerotier，右鍵，回報 "My address" 給 Max**。
 
 與服務器建立連線後，Max 會提供服務器的IP，現在即可連接到自己的環境。
 
