@@ -7,11 +7,9 @@
 首先要建立服務器與學生主機之間的連接。因為主機所在內聯網並不能直接連線，所以需要用到Zerotier虛擬內網進行連線。
 
 1. 下載 Zerotier (<https://www.zerotier.com/download/>) 並安裝。
-2. 開啟 Zerotier，在 Windows 工具欄右方找到 Zerotier，右鍵，"Join New Network"。
-3. 輸入提供的 Zerotier 網絡。
-4. **在 Windows 工具欄右方找到 Zerotier，右鍵，回報 "My address" 給 Max**。
+2. 聯繫我索取私有zerotier網絡連接方法
 
-與服務器建立連線後，Max 會提供服務器的IP，現在即可連接到自己的環境。
+與服務器建立連線後，我會提供服務器的IP，現在即可連接到自己的環境。
 
 ## 連接到 Docker 環境
 
@@ -19,9 +17,9 @@
 
 - IP and port: "服務器的IP":"環境的SSH port"
 - username: root
-- password: 你的學生證號碼
+- password: 微信給你
 
-其中，服務器的IP和環境的SSH port由 Max 提供，你的學生證號碼是環境的初始密碼，**請第一次連接到環境後立即更改密碼**。
+其中，服務器的IP和環境的SSH port由 我微信私聊 提供，你的環境的初始密碼由我微信提供，**請第一次連接到環境後立即更改密碼**。
 
 ## 更改SSH 密碼
 
@@ -58,7 +56,7 @@
 
 ## 重設環境
 
-如果環境壞掉了，Max可以幫忙重設環境，但先前自行安裝的東西都會消失。
+如果環境壞掉了，我可以幫忙重設環境，但先前自行安裝的東西都會消失。
 
 ## Jupyter 與 code-server
 
@@ -67,7 +65,7 @@
 - Jupyter 在瀏覽器輸入 "服務器的IP":"Jupyter的SSH port"
 - code-server 在瀏覽器輸入 "服務器的IP":"code-server的SSH port"
 
-每個環境都有不同的"Jupyter的SSH port"和"code-server的SSH port"，請向Max查詢。
+每個環境都有不同的"Jupyter的SSH port"和"code-server的SSH port"，請向我微信查詢。
 
 Jupyter 和 code-server 都受密碼保護，在第一次使用前，請在SSH中使用`env-change-jupyter-passwd`和`env-change-code-server-passwd` 指令更改密碼，新密碼將在重啟環境後生效。
 
