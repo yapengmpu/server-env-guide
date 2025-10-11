@@ -15,7 +15,7 @@
 
 環境可以使用SSH連接，像連線到Linux系統一樣。每個環境都有獨立的SSH port。連線資料如下：
 
-- IP and port: "服務器的IP":"環境的SSH port"
+- IP and port: "服務器的IP":"環境的SSH port (Prefix+22)"
 - username: root
 - password: 微信給你
 
@@ -62,8 +62,8 @@
 
 環境有內建Jupyter 與 code-server (網頁版VS Code)，學生可以在瀏覽器進入 Jupyter 或 code-server 來使用環境。連線方式如下：
 
-- Jupyter 在瀏覽器輸入 "服務器的IP":"Jupyter的SSH port"
-- code-server 在瀏覽器輸入 "服務器的IP":"code-server的SSH port"
+- Jupyter 在瀏覽器輸入 "服務器的IP":"Jupyter的SSH port(Prefix+88)"
+- code-server 在瀏覽器輸入 "服務器的IP":"code-server的SSH port (Prefix+80)"
 
 每個環境都有不同的"Jupyter的SSH port"和"code-server的SSH port"，請向我微信查詢。
 
